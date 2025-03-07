@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBFBF"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:autoSizeMaxTextSize="3000dp"
+        android:text="WELCOME FOTOKU"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="243dp"
+        android:layout_height="132dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5sp"
+        android:contentDescription="Sample Image"
+        android:src="@drawable/gambar5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="Email"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:hint="Value"
+        android:inputType="textAutoComplete"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Password"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:hint="Value"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#E9B36F"
+        android:text="Sign In"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/forgot_password_register"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:gravity="center"
+        android:paddingVertical="10dp"/>
+</LinearLayout>
