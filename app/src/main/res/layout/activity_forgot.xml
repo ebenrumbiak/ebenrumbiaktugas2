@@ -7,16 +7,6 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <TextView
-        android:id="@+id/tv_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="WELCOME FOTOKU"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/iv_logo"
@@ -27,12 +17,12 @@
         android:contentDescription="Sample Image"
         android:src="@drawable/gambar5"/>
 
-    <TextView
+      <TextView
         android:id="@+id/tv_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
-        android:text="Email"
+        android:text="Forgot Password"
         android:textColor="@android:color/black"
         android:textSize="14sp"/>
 
@@ -46,26 +36,6 @@
         android:padding="10dp"
         android:textColorHint="@android:color/darker_gray"/>
 
-    <TextView
-        android:id="@+id/tv_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="5dp"
-        android:text="Password"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"/>
-
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/edit_text"
-        android:hint="Enter your password"
-        android:inputType="textPassword"
-        android:padding="10dp"
-        android:textColorHint="@android:color/darker_gray"/>
-
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="match_parent"
@@ -75,20 +45,4 @@
         android:text="Sign In"
         android:textColor="@android:color/white"/>
 
-    <TextView
-        android:id="@+id/tv_forgot_password"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:layout_marginTop="15dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:text="Forgot Password / Register"
-        android:textColor="@android:color/black"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:visibility="visible"
-        android:gravity="center"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"/>
 </LinearLayout>
