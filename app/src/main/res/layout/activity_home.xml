@@ -26,6 +26,7 @@
         android:id="@+id/btnShare"
         android:layout_width="217dp"
         android:layout_height="64dp"
+        android:backgroundTint="#E9B36F"
         android:text="SHARE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
